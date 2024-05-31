@@ -1,4 +1,11 @@
-# Project Name
+# AWS Cost and Usage Report (CUR) Analysis
+
+## Objectives
+
+* Visualize cost distribution across services, regions, and time periods using histograms, bar charts, line plots, and box plots, wherever applicable.
+* Identify top cost-driving services, regions (and across other applicable dimensions)
+* Analyze cost trends over time for patterns and spikes.
+* Correlate cost patterns with usage metrics.
 
 ## Structure of the Repository
 
@@ -17,7 +24,7 @@ This repository uses `setuptool` to create packages and uses `toml` file for pac
 ├── LICENSE                  # The license for the project
 ├── Makefile                 # A collection of utilities to manage the project
 ├── MANIFEST.in              # A list of files to include in a package
-├── src/{project_name}       # The main python package for the project
+├── src/{aws_cur_analysis}   # The main python package for the project
 │   ├── __init__.py          # This tells Python that this is a package
 │   ├── info.py              # Project info [Author, version]
 ├── data                     # Required data
